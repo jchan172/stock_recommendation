@@ -1,0 +1,11 @@
+[run]
+# Include only files in the 'stock_recommendation' directory for coverage analysis
+source = stock_recommendation
+
+[report]
+# Omit files from external libraries and the Python standard library
+omit =
+    */usr/*
+    */lib/python*
+    */site-packages/*
+    */__init__.py

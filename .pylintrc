@@ -1,0 +1,18 @@
+[MASTER]
+# Specify a configuration file.
+rcfile=
+
+[MESSAGES CONTROL]
+# Disable the following message IDs:
+disable=C0116, C0114, W0621
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=100
+
+# String used as indentation unit.
+indent-string='  '  # Two spaces for indentation
+
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=5

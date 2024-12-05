@@ -1,0 +1,17 @@
+# Ignore Mac .DS_STORE file
+*.DS_STORE
+
+# Ignore test coverage report files
+.coverage
+
+# Ignore Python bytecode and __pycache__ directories
+__pycache__/
+package/
+*.py[cod]
+
+# Ignore environment variables file
+.env
+
+# Ignore generated files
+*.zip
+*.html
